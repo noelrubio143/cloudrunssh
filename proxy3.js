@@ -6,7 +6,7 @@ const crypto = require("crypto");
 const net = require('net');
 
 // Configuration - variables d'environnement
-var dhost = process.env.DHOST || "cdn.worldsolution.site";
+var dhost = process.env.DHOST || "digital.ambervpn.online";
 var dport = process.env.DPORT || 22;
 var mainPort = process.env.PORT || 8080;
 var packetsToSkip = parseInt(process.env.PACKSKIP) || 0;
