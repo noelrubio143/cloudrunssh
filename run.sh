@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variables d'environnement par défaut
-export DHOST="${DHOST:-cdn.worldsolution.site}"
+export DHOST="${DHOST:-digital.ambervpn.online}"
 export DPORT="${DPORT:-22}"
 export PACKSKIP="${PACKSKIP:-0}"
 export PORT="${PORT:-8080}"
